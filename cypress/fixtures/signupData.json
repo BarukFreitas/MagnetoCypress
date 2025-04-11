@@ -1,0 +1,15 @@
+{
+  "existingAccount": {
+    "firstname": "admin1",
+    "lastname": "test",
+    "email": "admin@email.com",
+    "password": "Password@123"
+  },
+
+  "invalidAccount": {
+    "firstname": "admin",
+    "lastname": "test",
+    "email": "admin@emailcom",
+    "password": "password"
+  }
+}

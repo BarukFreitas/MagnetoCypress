@@ -1,0 +1,25 @@
+{
+  "name": "magnetocypress",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Cypress no site Magneto Software Testing Board",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarukFreitas/MagnetoCypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BarukFreitas/MagnetoCypress/issues"
+  },
+  "homepage": "https://github.com/BarukFreitas/MagnetoCypress#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions"
+  }
+}
