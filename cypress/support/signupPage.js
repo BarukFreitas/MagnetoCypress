@@ -40,3 +40,9 @@ Cypress.Commands.add('passwordError', () => {
     cy.get('#password-error').should('be.visible')
     cy.get('#password-error').should('contain', 'Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.')
 })
+
+Cypress.Commands.add('registerComplete', () => {
+    cy.get('.message-success').should('be.visible')
+    cy.get('.message-success').should('contain', 'Thank you for registering with Main Website Store.')
+})
+
