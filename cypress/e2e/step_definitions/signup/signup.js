@@ -6,6 +6,7 @@ Given("estou na tela principal", () => {
 
 And("clico em criar uma nova conta", () => {
     cy.scrollTo('top');
+    cy.wait(1000);
     cy.clickCreateAccount();
 });
 
