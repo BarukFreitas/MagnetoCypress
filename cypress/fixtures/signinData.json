@@ -1,0 +1,14 @@
+{
+    "invalidAccount": {
+    "firstname": "admin1",
+    "lastname": "test",
+    "email": "admin@email.com",
+    "password": "Password@123"
+  },
+  "validAccount": {
+    "firstname": "test",
+    "lastname": "account",
+    "email": "testaccount@baruk.com",
+    "password": "Password@123"
+  }
+}

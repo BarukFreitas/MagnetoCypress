@@ -1,1 +1,2 @@
-import './signupPage'
+import './SignupPage'
+import './SigninPage'
